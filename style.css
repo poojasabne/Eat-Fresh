@@ -1,0 +1,252 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	margin: 0;
+	font-family: sans-serif;
+}
+.parallex, .parallex1
+{
+	background-image: url('pic1.jpg');
+	height: max-content;
+	/*height: 100vh;*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.page-title
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: white;
+	padding: 50px;
+	font-variant: small-caps;
+	font-size: 100px;
+	font-family: fantasy;
+	letter-spacing: 20px;
+}
+#sticky
+{
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+.menu
+{
+	background: #184d47;
+	text-align: center;
+}
+.menu-ul
+{
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.menu-ul li
+{
+	font-size: 17px;
+	list-style: none;
+	display: inline-block;
+	padding: 25px;
+	font-weight: bold;
+}
+.a-menu, .a-links
+{
+	text-decoration: none;
+	color: white;
+}
+.menu-ul li:hover
+{
+	background: #5b8c5a;
+	transform: scale(1.1);
+}
+.search-box
+{
+	border: 1px solid white;
+	border-radius: 50px;
+	background: white;
+	width: max-content;
+	display: inline-block;
+	margin: 8px;
+}
+.search-box:hover
+{
+	box-shadow: 0 0 10px 2px #5b8c5a;
+	border: 1px solid #5b8c5a;
+}
+.search-input
+{
+	width: 250px;
+	border: none;
+	font-size: 16px;
+	outline: none;
+	background: transparent;
+	margin: 10px 0 0 10px;
+	padding: 5px;
+	vertical-align: baseline;
+}
+i
+{
+	font-size: 20px;
+	margin: 0 10px 0 0;
+}
+button
+{
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.container, .deals-container
+{
+	margin: 50px 50px 50px 5%;
+	width: 90%;
+}
+.categories, .items
+{
+	width: max-content;
+	margin-top: 25px;
+	margin-left: 55px;
+	border: 1px solid #184d47;
+	border-radius: 0 0 50px 50px;
+	display: inline-block;
+}
+.categories:hover, .items:hover
+{
+	box-shadow: 0 0 10px 3px #184d47;
+}
+.item-image
+{
+	height: 170px;
+	width: 140px;
+	border-radius: 0 0 50px 50px;
+	padding: 10px;
+	justify-content: center;
+}
+.image-title
+{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+a
+{
+	text-decoration: none;
+}
+.title
+{
+	padding: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 10px; 
+	color: white;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+}
+.deal
+{
+	padding: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin: 20px;
+	max-width: 20%;
+	background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+}
+.coupon-btn
+{
+	border: 1px solid white;
+	color: whites;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+}
+.coupon-btn:hover
+{
+	box-shadow: 0 0 10px 5px white inset;
+}
+.images
+{
+	display: inline-block;
+}
+.item-image-size
+{
+	height: 200px;
+	width: 200px;
+	padding: 5px;
+}
+.description
+{
+	margin: 20px;
+	min-height: 100px;
+}
+.item-select
+{
+	margin: 10px 0 0 0;
+}
+.buynow-btn
+{
+	border: 1px solid #184d47;
+	background: #184d47;
+	padding: 8px 18px;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 38px;
+	color: white;
+	justify-content: center;
+}
+.buynow-btn:hover
+{
+	border: 1px solid #5b8c5a;
+	box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
+.parallex1
+{
+	background-image: url(pic7.jpg);
+}
+.parallex1 a
+{
+	text-decoration: none;
+	color: #4386de;
+}
+.footer
+{
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding: 20px;
+}
+.quick-links
+{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	min-width: 30%;
+}
+.quick-links ul
+{
+	padding: 0;
+}
+.quick-links li  
+{
+	list-style: none;
+	padding: 10px;
+	font-weight: bold;
+}
+.a-links:hover
+{
+	color: #fd5e53;
+}
+.copyrights
+{
+	font-size: 15px;
+	font-family: cursive;
+	text-align: center;
+	margin: 10px;
+}
