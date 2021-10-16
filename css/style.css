@@ -10,7 +10,7 @@ body
 }
 .parallex, .parallex1
 {
-	background-image: url('pic1.jpg');
+	background-image: url('../images/header.jpg');
 	height: max-content;
 	/*height: 100vh;*/
 	background-attachment: fixed;
@@ -208,12 +208,13 @@ a
 }
 .parallex1
 {
-	background-image: url(pic7.jpg);
+	background-image: url(../images/footer.jpg);
 }
 .parallex1 a
 {
 	text-decoration: none;
-	color: #4386de;
+	color: #baf0aa; 
+	/*color: gray;*/
 }
 .footer
 {
